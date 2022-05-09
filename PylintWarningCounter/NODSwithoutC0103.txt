@@ -1,0 +1,20 @@
+00000,Description                  ,Absol. ,mean                ,median;
+C0114,Missing module docstring:    ,230966,0.007757000211921544,0.012345679012345678;
+C0115,Missing class docstring:     ,166188,0.005581429090077404,0.0;
+C0116,Missing function docstring:  ,432128,0.014513032167406601,0.007246376811594203;
+C0301,Line too long:               ,726634,0.024404025233105302,0.0;
+C0303,Trailing whitespace:         ,114167,0.003834302205495384,0.0;
+C0411,Wrong import order:          ,59817,0.0020089557842994685,0.0;
+R0201,Method could be function:    ,53152,0.0017851115543588837,0.0;
+R0902,Too many instance attributes:,13369,4.4899827608037166E-4,0.0;
+R0912,Too many branches:           ,9557,3.2097213886604176E-4,0.0;
+R0913,Too many arguments:          ,38988,0.001309413178833236,0.0;
+R0914,Too many local variables:    ,27513,9.240249509910439E-4,0.0;
+R1260,Too complex:                 ,15827,5.315502816608604E-4,0.0;
+R1702,Too many nested blocks:      ,1476,4.9571505385191755E-5,0.0;
+W0311,Bad indentation:             ,456133,0.015319240830530942,0.0;
+W0612,Unused variables:            ,21969,7.378295405198358E-4,0.0;
+W0613,Unused argument:             ,80164,0.002692310404944791,0.0;
+W0621,Redefined outer name:        ,39908,0.0013403114071221089,0.0;
+4182396
+2.977517E7

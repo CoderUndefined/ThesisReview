@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="PylintWarningCounter:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/PylintWarningCounter_jar</output-path>
+    <root id="archive" name="PylintWarningCounter.jar">
+      <element id="module-output" name="PylintWarningCounter" />
+    </root>
+  </artifact>
+</component>

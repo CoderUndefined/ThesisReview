@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="RemoveJSHintComment:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/RemoveJSHintComment_jar</output-path>
+    <root id="archive" name="RemoveJSHintComment.jar">
+      <element id="module-output" name="RemoveJSHintComment" />
+    </root>
+  </artifact>
+</component>

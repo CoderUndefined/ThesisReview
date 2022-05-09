@@ -1,0 +1,12 @@
+MEAN
+Parameters: 2.060828024445901
+Statements: 7.970400140178387
+Complexity: 2.438432240886299
+MEDIAN
+Parameters: 2
+Statements: 4
+Complexity: 1
+TRIMMED MEAN
+Parameters: 2.0625292335677963
+Statements: 7.976979688429276
+Complexity: 2.4406065646716226

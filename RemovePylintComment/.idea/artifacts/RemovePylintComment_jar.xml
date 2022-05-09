@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="RemovePylintComment:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/RemovePylintComment_jar</output-path>
+    <root id="archive" name="RemovePylintComment.jar">
+      <element id="module-output" name="RemovePylintComment" />
+    </root>
+  </artifact>
+</component>
