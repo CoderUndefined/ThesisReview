@@ -1,0 +1,72 @@
+<!-- Copyright 2000-2020 JetBrains s.r.o. and other contributors. Use of this source code is governed by the Apache 2.0 license that can be found in the LICENSE file. -->
+<!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
+
+<idea-plugin>
+
+  <!-- Unique id for this plugin. Must stay constant for the life of the plugin. -->
+  <id>org.intellij.sdk.editor</id>
+
+  <!-- Text to display as name on Preferences/PersistentData | Plugin page -->
+  <name>Python Intelligent Variable Name Replacer</name>
+
+  <!-- Product and plugin compatibility requirements -->
+  <depends>com.intellij.modules.platform</depends>
+
+  <!-- Text to display as description on Preferences/PersistentData | Plugin page -->
+  <description>
+    <![CDATA[
+      Replace Python variable names intelligently
+      WARNING:
+      The heap settings must be changed first to at least 8192M.
+    ]]>
+  </description>
+  <change-notes>
+    <![CDATA[
+      <ul>
+        <li><b>0.0.1</b> Still in development</li>
+      </ul>
+    ]]>
+  </change-notes>
+
+  <!-- Text to display as company information on Preferences/PersistentData | Plugin page -->
+  <vendor>Huu Kim Nguyen</vendor>
+
+  <actions>
+    <!-- Place this entry first in the popup menu; it's always enabled if a project and editor are open -->
+    <action id="EditorBasics.LogicalPositionIllustration"
+            class="org.intellij.sdk.editor.EditorAreaIllustration"
+            text="Replace Variable Name"
+            description="Replace variable name with a more meaningful one">
+      <add-to-group group-id="EditorPopupMenu" anchor="first"/>
+    </action>
+    <action id="org.intellij.sdk.editor.EditorLoadingInfo"
+            class="org.intellij.sdk.editor.EditorLoadingInfo"
+            text="Cache Is Still Loading or Settings Are not Set"
+            description="Cache is still loading. Please wait until loading is finished">
+      <add-to-group group-id="EditorPopupMenu" anchor="first"/>
+    </action>
+    <action id="org.intellij.sdk.editor.FirstTimeStartup"
+            class="org.intellij.sdk.editor.FirstTimeStartup"
+            text="Variable Replacer First Time Startup"
+            description="Checks if plugin is used for the first time">
+      <add-to-group group-id="EditorPopupMenu" anchor="first"/>
+    </action>
+    <action id="org.intellij.sdk.editor.ErrorLoadingInfo"
+            class="org.intellij.sdk.editor.ErrorLoadingInfo"
+            text="Error While Loading the Variable Replacer Files. Please Check the Directories"
+            description="Shows if there was a loading error">
+      <add-to-group group-id="EditorPopupMenu" anchor="first"/>
+    </action>
+  </actions>
+
+  <extensions defaultExtensionNs="com.intellij">
+    <preloadingActivity implementation="org.intellij.sdk.editor.OnApplicationStartup"/>
+
+    <applicationConfigurable parentId="tools"
+                             instance="org.intellij.sdk.editor.Settings"
+                             id="org.intellij.sdk.editor.Settings"
+                             displayName="Variable Replacer Settings"/>
+    <applicationService serviceImplementation="org.intellij.sdk.editor.PersistentData"/>
+
+  </extensions>
+</idea-plugin>

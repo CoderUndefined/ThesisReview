@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="81" height="80" viewBox="0 0 81 80">
+  <defs>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <g fill-rule="nonzero" transform="translate(0 0)">
+      <rect width="80" height="80" fill="#000"/>
+      <rect width="70" height="5" x="5" y="5" fill="#FFFEFE"/>
+      <rect width="70" height="5" x="5" y="70" fill="#FFFEFE"/>
+      <rect width="5" height="70" x="5" y="5" fill="#FFFEFE"/>
+      <rect width="5" height="70" x="70" y="5" fill="#FFFEFE"/>
+    </g>
+  </g>
+</svg>
