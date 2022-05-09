@@ -1,0 +1,409 @@
+Very rough plan:
+
+- Clone  all the repositories
+- Filter them out (has Python3 files,only)
+- Also sort them by stars
+- Do NOT include Data Science Projects in the non Data Science dataset
+PROGRAM 0:
+- Python2/3 ->  OR check for the print function
+$ python2 -m py_compile foo.py
+$ python3 -m py_compile foo.py
+PROGRAM 1:
+- After filtering them all out, run pylint.
+-> Check for the __init__.py file 
+-> If that does not exist, go for the first folder
+-> Write down ALL the warnings and errors and the final score
+-> Do that for both sets
+PROGRAM 2:
+-> Extract the variable names from the .py files
+-> With extra content (Constant? Loop variable? Return value? Global? Class?)
+-> Watch out for multiple variable names! (x,y,z = 1,2,3)
+-> Basic format: [variable] = [value]
+
+Parallel
+- Literature research
+- Write first chapters
+
+compare them to similar quality projects? (Same number of stars?!)
+
+866 
+992
+873
+885
+668
+914?
+
+removed because of excessive size (and almost no py files)
+echen102   COVID-19-TweetIDs
+fo40225    tensorflow-windows-wheel
+xinxin8816 gfriends
+microsoft  Microsoft-Rocketbox
+
+iiiii iiiii removed because of malware
+
+
+
+
+
+
+
+
+
+
+
+ytisf/theZoo                 1
+Endermanch/MalwareDatabase 1
+malwaredllc/byob              1
+outflanknl/RedELK
+fuzzbunch/fuzzbunch
+calebstewart/pwncat
+bhdresh/CVE-2017-0199
+threat9/routersploit/
+wwong99/pentest-notes
+Veil-Framework/Veil
+Marten4n6/EvilOSX               x
+almandin/fuxploder              x
+TryCatchHCF/ (ALL 3)            x  3
+googleprojectzero/domato        x
+sevagas/macropack                x
+grayddq/GScan                   x  2
+H1R0GH057/Anonymous               x
+Genetic-Malware/Ebowla            x
+4w4k3/BeeLogger                   x
+mobier/shadowsocksr-speed          x
+nixawk/labs                         x
+Ridter/CVE-2017-111882                x 2
+D4Vinci/One-Lin3er                   x 3
+praetorian-inc/pentestly             x
+EmpireProject/Empyre                  x
+elastic/detection-rules               x
+SofianeHamlaoui/Lockdoor-Framework    x
+MrWq/vulnerability-paper            x
+qilingframework/qiling             x
+pymedusa/Medusa                    x
+grimm-co/NotQuite0DayFriday        x       
+carlospolop/hacktricks           x
+ctfs/write-ups-2017               x
+RustyShackleford221/OSCP-Prep       x
+xtiankisutsa/MARA_Framework         x
+0x00-0x00/ShellPop                 x
+51x/WHP					x							
+HexHive/retrowrite			x
+Coalfire-Research/Slackor		x
+bats3c/darkarmour			x
+hak5/wifipineapple-modules		x
+ropnop/impacket_static_binaries		x	2
+ToanTech/py-apple-quadruped-robot	x
+unipacker/unipacker			x
+ybdt/post-basic-hub			x
+antonioCoco/SharPyShell			x
+embedi/CVE-2017-11882			x
+tarcisio-marinho/GonnaCry		x
+euphrat1ca/fuzzdb-collect		x
+derek-zhang123/MxOnline			x
+SecWiki/office-exploits			x
+felixweyne/imaginaryC2			x
+DawnFlame/POChouse			x
+ym2011/POC-EXP				x	
+ym2011/PenetrationTestingScripts	x
+faizann24/Fwaf-Machine-Learning-driven... x
+Harveysn0w/CTF-Hacker-Tools  		x
+Fplyth0ner-Combie/Bug-Project-Framework x
+easymountyxz/SystemSecurity-Reverse..	x
+two06/Inception				x	
+ssooking/CTFDefense			x
+hongrisec	ctf-training
+perfectblue	ctf-writeups
+boy-hack	w8fuckcdn
+charleswyt	tf_audio_steganalysis
+brucetg		pentest-tools
+donnchac	shadowbrokers-exploits
+anssi-fr	polichombr
+shauryauppal	pywhatsapp
+bhdresh		cve-2017-8759
+arno0x		(2)
+unamer 		CVE-2017-11882	x
+bash-c		pwn-repo		x
+nanshihui	PocCollect	x
+rxwx	CVE
+spamScope
+HacTF
+Ridter acefile
++1
+Voulnet
+LPDI-EPFL
+nn_score
+
+[CONTROL GROUP ONLY]
+
+herwonowr/exprolog
+NESCAU-UFLA/FuzzingTool
+ToanTech/Py Apple Dynamics 4.5
+ToanTech/Py Apple Dynamics 6
+ToanTech/Py Apple Dynamics 6.8
+sirpedrotavares/Proxylogon-exploit
+crow821/crowsec
+
+
+swimlane/soc-faker/socfaker
+NEALWE/AWD_FrameWork
+psygames/csdn_helper_pub
+R00tS3c/DDOS-RootSec
+mandiant/flashmingo
+
+
+udyz Proxylogon
+
+sii
+cuckooml
+AI-Driven-WAF
+4284
+vs 
+1558 -> 1538 [MUST BE CITED!!! (boa data science dataset)]
+
+Total number of repos 
+-
+MINUS excessively large repos
+-
+MINUS repos with malware
+- 
+MINUS repos that exists in both datasets
+-
+MINUS repos without py files
+-
+MINUS repos that are not compatible with Python 3
+
+MAKE SURE NONE OF THE DATASET REPOS ARE IN THE OTHER DATASET!!
+
+problem with (video-object-classification/aux) and (ecg-classification/python)
+no shared repositories
+
+DO NOT FORGET TO WRITE THE RESULTS DOWN! (thats is the mark of the scientist!)
+
+
+AFTER ANALYSIS
+????
+
+
+// (before checking, after malware removal (300+ stars))
+// 1538 VS        5127 + 1413 + 793 + 685 + 896 = 8914
+// after removing duplicates
+// 1538 VS 8914 -  393 -   88 -  40 -  38 -  46 = 8309
+// after removing projects without .py files
+// 1535 VS
+// after removing projects that are not compatible with Python 3
+
+??????????????????????????????????
+1558
+after removing non accessible repos
+1540 vs 10811 +  (642 + 542 + 799 + 698 = 2737)                                  2678
+after removing excessively large repos
+1540 vs 10805 +  (2737)							         2678
+after removing malware
+1538 vs 10723 +   2718              7 +3 + 2 + 1 + 6 (2737-19 = 2718) 2718    /	 2659
+after removing without py files
+1535 vs 10679 +   2714   							(2655)
+after removing duplicates
+1535 vs  9989 +                                                                  2548
+after removing those that are not python 3 compatible
+1030 vs  8753 +                                                                  2189
+(final curation, only above 1xxx stars)
+1030 vs 1030
+10941 (final count)
+
+2280 + 204 + 48 + 44 + 10 + 6 + 28 + 9 + 10 + 16
+
+
+Count lines that are not empty + 
+Pylint
+
+
+
+ 1 DNF
+17 file errors
+
+Comparison folder
+6 DNF
+? file errors
+
+pylint tweaks= disable similarities.
+
+
+Raw results into something that can be presented
+
+
+common use of abbreviations or straight mathematical formulas which are not understandable by outsiders
+
+
+broken repositories that cannot be processed with reasonable performance:
+(Delete repositories and also remove pylint results!)
+FULL DATASET
+ypleg/HungaBunga
+kennethreitz-archive/requests3
+johnolafenwa/DeepStack
+PaulSonOfLars/tgbot (????)
+ustayready/CredKing 
+tatuylonen/wiktextract
+arrowtype/recursive
+m0rtem CloudFail
+morpheus65535 bazarr
+zhzyker/vulmap
+rowliny/DiffHelper
+
+check later
+ice-doom/eyeJo
+kylebebak/Requester
+P1Sec/pycrate ???
+rowliny/DiffHelper
+TophantTechnology/osprey
+wwqgtxx/wwwqLyParse
+wistbean/learn_python3_spider
+kerlomz/captcha_platform
+dry-python/returns
+
+Extended Dataset
+
+dFolder1
+jorisschellekens/borb-examples????
+
+
+DSDataset
+sony/nnabla
+
+A
+
+725 -  4 malware - 2 not having py - 110 not python3 - 70 already in DS dataset
+
+B
+w3h/isf
+Telefonica/ATTPwn
+SpiderLabs/scavenger
+alanvivona/pwnshop
+wudimahua
+
+740 - 5 malware - 1 not having py - 129 not python3
+
+C
+
+883 - 7 malware - 3 not having py - 126 not python3
+
+
+D
+717 - 5 malware                   - 81 not python3 -  11 already in DS dataset
+E
+844 - 6 malware - 6 not having py - 115            - 15
+
+F
+
+893 - 5 malware - 4 not having py - 127           -   8
+G
+971 - 8 malware - 1 not having py - 143              19
+
+H
+827 - 3 malware - 4 not having py - 118              12
+I
+847 - 5 malware - 6 not having py - 107              10
+J
+922 - 6 malware - 1 not having py - 124             11
+
+K
+834 - 	7 malware - 	0 not having py - 125 not py3			11 already in DS dataset
+L
+866 -	3 malware -	6 not having py - 123 not python3 -  6 already in DS dataset
+M
+802 -	5 malware -     3 not having py	  131		     8 already in DS dataset
+N
+644 -	2 malware - 	4 not having py	   95   		8 already in DS dataset
+O
+633 -   2 malware - 	5 not having py	   82		2 already in DS dataset
+
+THREE in DFolder2 Removed for memory leak 
+(nilboy/gaic_track3_pair_sim AND
+ skylander86/lambda-text-ext AND
+ PauperZ/SSRSpeedN)
+ plus two for stalling
+facebookresearch/codeGen
+intel/webml-polyfills
+
+THREE
+carbonblack/cbapi-python
+simonblowsnow/COVID-19-Visualization
+
+
+redhat-cop casl-ansible //excessive symbolic links?
+
+dFolder5 removed
+PacktPublishing/Hands-On-Artificial-Intelligence-For-Banking
+torproject/stem
+TechnicalMujeeb/tmvenom
+mediabots/InstagramBot-GUI-Python
+mediabots/Mastering-Flask
+fredfeng0326/scraping
+hhhrrrttt222111/Dorkify
+
+dFolder6 removed
+Animenosekai/translate
+
+
+NOTE THAT ML FOLDER IS ACTIVE!! (moving back in progress) {not anymore}
+=================================================================
+excludes
+
+
+
+	{"machine learn", "machine-learn", "data sci", "data-sci", "big data", 
+	"big-data", "large data", "large-data", "data analy", 
+	"data-analy", "deep learn", "deep-learn", "data model", "data-model", 
+	"artificial intel", "artificial-intel", "mining", "topic modelling", "topic-modelling", 
+	"natural language pro", "natural-language-pro", "nlp", "data frame", "data proces", 
+	" ml ", "tensorflow", "tensor flow", "tensor-flow", "theano", "caffe", "keras", 
+	"scikit-learn", "kaggle", "spark", "hadoop", "mapreduce", "hdfs", "neural net", "neural-net"}
+
+machine learn		0
+machine-learn		0
+data sci		0
+			0
+big data
+
+machine-learning 		911 + 462
+data-science	 		205 + 79
+data-analysis	 		 43 + 13
+big-data	  		15  +   8
+deep-learning			1296 + 777
+mining		   		4   +   4
+topic-modelling	                  2 +  1
+natural-language-processing	190 +  97
+nlp				329 + 160
+data-processing			  8 +  6
+ml				 47 + 19
+tensorflow			737 +432
+theano				 28 +14
+caffe		 		37 + 15
+keras	 			250+142
+scikit-learn	 		62 +24
+kaggle		 		26 +12
+spark		 		13 +13
+hadoop           		 2 + 2
+mapreduce	 		 0
+hdfs 		 		 0
+neural-net	 		 0
+
+step 1 word replacer
+step 2 abbreviation extender
+???? check when python variable name is TOO long
+ORIGINAL GOALS
+
+
+
+
+
+The task is to mine the large open-source code repository to discover the naming conventions in data science projects and to suggest better variable names. We aim to answer the following research problems:
+
+[What] What naming conventions in current python code style guides do data science projects comply / not comply with? 
+How can we efficiently mine these patterns in a big code repository? 
+
+[Why] What is the difference between data science projects and other projects regarding naming conventions? 
+Is there relevance between these naming conventions and other code features? 
+
+[How] How effective are the existing methods for general projects, eg [3] [4], on data science projects? 
+How can these mined naming conventions improve the variable name suggestion? 

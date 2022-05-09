@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/err" />
+      <excludeFolder url="file://$MODULE_DIR$/std" />
+      <excludeFolder url="file://$MODULE_DIR$/tmp" />
+      <excludeFolder url="file://$MODULE_DIR$/errDS" />
+      <excludeFolder url="file://$MODULE_DIR$/stdDS" />
+      <excludeFolder url="file://$MODULE_DIR$/stdDSinvalid" />
+      <excludeFolder url="file://$MODULE_DIR$/errDSinvalid" />
+      <excludeFolder url="file://$MODULE_DIR$/errComparison" />
+      <excludeFolder url="file://$MODULE_DIR$/stdComparison" />
+      <excludeFolder url="file://$MODULE_DIR$/errDS5" />
+      <excludeFolder url="file://$MODULE_DIR$/stdDS5" />
+      <excludeFolder url="file://$MODULE_DIR$/std5" />
+      <excludeFolder url="file://$MODULE_DIR$/err5" />
+      <excludeFolder url="file://$MODULE_DIR$/stdDS1" />
+      <excludeFolder url="file://$MODULE_DIR$/errDS1" />
+      <excludeFolder url="file://$MODULE_DIR$/stdComparison1" />
+      <excludeFolder url="file://$MODULE_DIR$/errComparison1" />
+      <excludeFolder url="file://$MODULE_DIR$/errFULL1" />
+      <excludeFolder url="file://$MODULE_DIR$/stdFULL1" />
+      <excludeFolder url="file://$MODULE_DIR$/errControl" />
+      <excludeFolder url="file://$MODULE_DIR$/stdControl" />
+      <excludeFolder url="file://$MODULE_DIR$/errDS2" />
+      <excludeFolder url="file://$MODULE_DIR$/stdDS2" />
+      <excludeFolder url="file://$MODULE_DIR$/stdFULL1removed" />
+      <excludeFolder url="file://$MODULE_DIR$/errDfolder1" />
+      <excludeFolder url="file://$MODULE_DIR$/stdDfolder1" />
+      <excludeFolder url="file://$MODULE_DIR$/stdDfolder2" />
+      <excludeFolder url="file://$MODULE_DIR$/errDfolder2" />
+      <excludeFolder url="file://$MODULE_DIR$/stdDfolder3" />
+      <excludeFolder url="file://$MODULE_DIR$/errDfolder3" />
+      <excludeFolder url="file://$MODULE_DIR$/errDfolderJ" />
+      <excludeFolder url="file://$MODULE_DIR$/stdDfolderJ" />
+      <excludeFolder url="file://$MODULE_DIR$/stddFolder5" />
+      <excludeFolder url="file://$MODULE_DIR$/errdFolder5" />
+      <excludeFolder url="file://$MODULE_DIR$/errdFolder6" />
+      <excludeFolder url="file://$MODULE_DIR$/stddFolder6" />
+      <excludeFolder url="file://$MODULE_DIR$/stdgitDepth1" />
+      <excludeFolder url="file://$MODULE_DIR$/errgitDepth1" />
+      <excludeFolder url="file://$MODULE_DIR$/errgitDSDatasetDepth1" />
+      <excludeFolder url="file://$MODULE_DIR$/stdgitDSDatasetDepth1" />
+      <excludeFolder url="file://$MODULE_DIR$/stdnoDSFolder" />
+      <excludeFolder url="file://$MODULE_DIR$/errnoDSFolder" />
+      <excludeFolder url="file://$MODULE_DIR$/stdRgitDSDatasetDepth1" />
+      <excludeFolder url="file://$MODULE_DIR$/errRgitDSDatasetDepth1" />
+      <excludeFolder url="file://$MODULE_DIR$/stdRgitDepth1" />
+      <excludeFolder url="file://$MODULE_DIR$/errRgitDepth1" />
+      <excludeFolder url="file://$MODULE_DIR$/stdRnoDSFolder" />
+      <excludeFolder url="file://$MODULE_DIR$/errRnoDSFolder" />
+      <excludeFolder url="file://$MODULE_DIR$/errXgitDSDatasetDepth1" />
+      <excludeFolder url="file://$MODULE_DIR$/stdXgitDSDatasetDepth1" />
+      <excludeFolder url="file://$MODULE_DIR$/stdXgitDepth1" />
+      <excludeFolder url="file://$MODULE_DIR$/errXgitDepth1" />
+      <excludeFolder url="file://$MODULE_DIR$/stdXnoDSFolder" />
+      <excludeFolder url="file://$MODULE_DIR$/std2gitDSDatasetDepth1" />
+      <excludeFolder url="file://$MODULE_DIR$/err2gitDSDatasetDepth1" />
+      <excludeFolder url="file://$MODULE_DIR$/err1gitDSDatasetDepth1" />
+      <excludeFolder url="file://$MODULE_DIR$/std1gitDSDatasetDepth1" />
+      <excludeFolder url="file://$MODULE_DIR$/std1controlFolder" />
+      <excludeFolder url="file://$MODULE_DIR$/err1controlFolder" />
+      <excludeFolder url="file://$MODULE_DIR$/std1gitDepth1" />
+      <excludeFolder url="file://$MODULE_DIR$/err1gitDepth1" />
+      <excludeFolder url="file://$MODULE_DIR$/stdZEROgitDSDatasetDepth1" />
+      <excludeFolder url="file://$MODULE_DIR$/errZEROgitDSDatasetDepth1" />
+      <excludeFolder url="file://$MODULE_DIR$/std1noDSFolder" />
+      <excludeFolder url="file://$MODULE_DIR$/stdZEROgitDepth1" />
+      <excludeFolder url="file://$MODULE_DIR$/errZEROgitDepth1" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
